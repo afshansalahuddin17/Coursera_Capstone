@@ -39,16 +39,11 @@ The dataset consists of feature vectors belonging to 12,330 sessions. The datase
 The main goal of this project is to design a machine learning classification system, that is able to predict an online shopper's intention ( _buy_ or _no_ _buy_ ), based on the values of the given features (from google analytics). A number of different classification algorithms is tested, in order to pick the best one for the project.
 
 ### Conclusion
-In this project, we used *Online Shoppers Intention* dataset to build models that can classify website visitor, and predict which of them is likely going to make a purchase on the website. 7 different learning classifiers (Naive Bayes, KNN, SVM, Logistic Regression, Random Forest, Gradient Boosting, and Adaboosting) were tested and optimized, and we have achieved the best classification performance using Gradient Boost classifier, followed by random Forest, and then Adaboost.
+In this project, we used *Online Shoppers Intention* dataset to build models that can classify website visitor, and predict which of them is likely going to make a purchase on the website. 2 different learning classifiers ( Gradient Boosting, and Neural Network) were tested and optimized, and we have achieved the best classification performance using Gradient Boost classifier, followed by random Forest, and then Adaboost.
 | Classifier | Accuracy | F1-Score | Precision | Recall |
 |:-----------|:---------|:---------|:----------|:-------|
-|Naive Bayes |0.775     |0.491     |0.394    |0.652  |
-|KNN|0.873|0.506|0.723|0.39|
-|SVM|0.889|0.6|0.751|0.5|
-|Logistic Regression|0.879|0.529|0.758|0.406|
-|Random Forest|0.902|0.662|0.774|0.578|
 |Gradient Boost|0.905|0.689|0.761|0.63|
-|AdaBoost|0.889|0.624|0.713|0.555|
+|Neura Network|0.889|0.624|0.713|0.555|
 
 ![](/roc-curves.png)
 
